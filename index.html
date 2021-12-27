@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     
+     <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="description" content="Dice Referee WebApp using HTML, CSS, and JS.">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+    <title>Dice Referee</title>
+     
+     <!-- Font awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+     
+     <!--Custom CSS-->
+    <link rel="stylesheet" href="styles.css">
+     
+     <!--Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+     
+    <div class="container">
+      <h1>Dice Referee</h1>
+
+      <div class="dice">
+        <p id="player-name-1">Player 1</p>
+        <p><i class="fas fa-5x die-face fa-dice-six" id="dice-player-1"></i></p>
+      </div>
+
+      <div class="dice">
+        <p id="player-name-2">Player 2</p>
+        <p><i class="fas fa-5x die-face fa-dice-six" id="dice-player-2"></i></p>
+      </div>
+
+       <button type="button" class="roll-btn">Roll</button>
+       
+       <p class="hidden-element" id="prompt-to-refresh"> To change players, refresh the page.</p>
+       
+    </div>
+
+     <!--jQuery library-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     
+     <!--rolling simulations-->
+     <script src="index.js" charset="utf-8"></script>
+
+  </body>
+
+  <footer>
+     <p>N. M. Luna</p>
+     <a href="https://github.com/N-M-Luna" class="social-link"><i class="fab fa-github-square"></i></a>
+     <a href="https://twitter.com/loquacious_luna" class="social-link"><i class="fab fa-twitter-square"></i></a>
+     <a href="https://www.linkedin.com/in/nathalie-luna-aa0a12186/" class="social-link"><i class="fab fa-linkedin"></i></a>
+  </footer>
+</html>

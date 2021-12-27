@@ -1,0 +1,93 @@
+/*Sytle for Dice Referee*/
+
+/**************************color scheme***************************/
+/*teal: 99B19C
+maroon: 672F2F
+light gray: FAF5EF 
+dark gray: D7D1C9*/
+
+/**************************general content***************************/
+.container {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+
+body {
+  background-color: #99B19C;
+  color: #FAF5EF;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+/*Used for app's title and announcement of winner*/
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  margin: 30px;
+  text-shadow: 5px 0 #672F2F;
+}
+
+/*****************************Buttons to play and re-play****************************/
+.roll-btn {
+   background-color: #D7D1C9;
+   border: 2px solid #672F2F;
+   border-radius: 17px;
+   color: #672F2F;
+   display: block;
+   font-family: 'Indie Flower', cursive;
+   font-size: 1rem;
+   font-weight: bold;
+   margin: 0 auto;
+}
+
+.roll-btn:hover {
+   background-color: #672F2F;
+   border-color: #FAF5EF;
+   color: #FAF5EF;
+}
+
+.hidden-element{
+   visibility: hidden;
+}
+
+/***************************Each player has:***************************/
+
+/*Contains the player's name and die.*/
+.dice {
+  display: inline-block;
+  margin: 10px;
+
+}
+
+/*holds the players' name*/
+.dice p {
+  font-size: 1.75rem;
+}
+
+/*holds the die face.*/
+.die-face {
+   color: #672F2F;
+}
+
+
+/************************** Credits **************************/
+footer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+footer p {
+   color: #D7D1C9;
+   margin-bottom: 12px;
+}
+
+.social-link {
+   color: #D7D1C9;
+   margin: 7px;
+}
+
+.social-link:hover{
+  color: #672F2F;
+}
