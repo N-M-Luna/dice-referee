@@ -54,6 +54,9 @@ function rollDice() {
          case 5:
             return "fa-dice-five";
             break;
+         case 6:
+            return: "fa-dice-six";
+            break;
          default:
             return "fa-dice-six";
             break;
